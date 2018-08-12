@@ -16,7 +16,7 @@ $ apt install git
 $ git clone https://github.com/0954517662/TEST
 $ cd TEST
 $ python -m pip install -r requirements.txt
-$ python [U1-U2-U3-U4-U5-U6].py
+$ python [MAX1-MAX2-MAX3-MAX4-MAX5-MAX6].py
 ```
 
 ## Installation for VPS
@@ -25,7 +25,7 @@ $ python [U1-U2-U3-U4-U5-U6].py
 $ git clone https://github.com/0954517662/TEST
 $ cd TESR
 $ python3 -m pip install -r requirements.txt
-$ python3 [U1-U2-U3-U4-U5-U6].py
+$ python3 [MAX1-MAX2-MAX3-MAX4-MAX5-MAX6].py
 ```
 
 ## Attention
