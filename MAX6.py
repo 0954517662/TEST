@@ -62,9 +62,9 @@ ki2MID = ki2.profile.mid
 ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 Bots = [unkMID,aisMID,ki2MID,ki3MID,ki4MID]
-creator = ["ube187443474747c3ec352e7efeb48c1b"]
-Owner = ["ube187443474747c3ec352e7efeb48c1b"]
-admin = ["ube187443474747c3ec352e7efeb48c1b"]
+creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+Owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8"]
 
 unkProfile = unk.getProfile()
 aisProfile = ais.getProfile()
@@ -331,24 +331,24 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     unk.sendMessage(to, str(helpMessage), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+unk.getContact(unkMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
-                  #  unk.sendContact(to, "ud827b95f8468c46e30cf9bf5dd35e8e7")
+                  #  unk.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
              #   if text.lower() == 'token list':
             #        helpAdmin = helpadmin()
             #        unk.sendMessage(to, str(helpAdmin))    
                 if text.lower() == 'help1':
                     helpMedia = helpmedia()
                     unk.sendMessage(to, str(helpMedia), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+unk.getContact(unkMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
-  #                  unk.sendContact(to, "ud827b95f8468c46e30cf9bf5dd35e8e7")
+  #                  unk.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
  #                   unk.sendMessage(to,"isi pesanmu")
                 if text.lower() == 'help3':
                     helpMedia1 = helpmedia1()
                     unk.sendMessage(to, str(helpMedia1), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+unk.getContact(unkMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
-  #                  unk.sendContact(to, "ud827b95f8468c46e30cf9bf5dd35e8e7")
+  #                  unk.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
  #                   unk.sendMessage(to,"isi pesanmu")
                 if text.lower() == 'help4':
                     helpMedia2 = helpmedia2()
                     unk.sendMessage(to, str(helpMedia2), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+unk.getContact(unkMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
-  #                  unk.sendContact(to, "ud827b95f8468c46e30cf9bf5dd35e8e7")
+  #                  unk.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
  #                   unk.sendMessage(to,"isi pesanmu")
                 elif text.lower() == 'help2':
                     helpTextToSpeech = helptexttospeech()
@@ -377,7 +377,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "ube187443474747c3ec352e7efeb48c1b"
+                        owner = "u4862fe4b182b2fd194a3108e2f3662e8"
                         creator = unk.getContact(owner)
                         contact = unk.getContact(unkMID)
                         grouplist = unk.getGroupIdsJoined()
@@ -1077,12 +1077,12 @@ def lineBot(op):
                 elif text.lower() == 'tag':
                     group = unk.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
-                    k = len(nama)//100
+                    k = len(nama)//20
                     for a in range(k+1):
                         txt = u''
                         s=0
                         b=[]
-                        for i in group.members[a*100 : (a+1)*100]:
+                        for i in group.members[a*20 : (a+1)*20]:
                             b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                             s += 7
                             txt += u'@Alin \n'
@@ -1224,7 +1224,7 @@ def lineBot(op):
                         
 #===============================================================================[unkMID - kiMID]
         if op.type == 19:
-            print ("[ 19 ] UNK87 BOT KICK")
+            print ("[ 19 ] MAX BOT KICK")
             try:
                 if op.param3 in unkMID:
                     if op.param2 in aisMID:
