@@ -141,104 +141,104 @@ def sendMessageWithMention(to, mid):
 def helpmessage():
     helpMessage = " [ Help Message ]" + "\n" + \
                   "  " + "\n" + \
-                  " Help1" + "\n" + \
-                  " Help2" + "\n" + \
-                  " Help3" + "\n" + \
-                  " Help4" + "\n" + \
-                  " Help Self" + "\n" + \
-                  " Status" + "\n" + \
-                  " Runtime" + "\n" + \
-                  " About" + "\n" + \
+                  "😈 Help1" + "\n" + \
+                  "😈 Help2" + "\n" + \
+                  "😈 Help3" + "\n" + \
+                  "😈 Help4" + "\n" + \
+                  "😈 Help Self" + "\n" + \
+                  "😈 Status" + "\n" + \
+                  "😈 Runtime" + "\n" + \
+                  "😈 About" + "\n" + \
                   "   "
     return helpMessage        
         
 def helpmedia():
     helpMedia =   " [ Menu MyBot ]" + "\n" + \
                   "  " + "\n" + \
-                  " Restart" + "\n" + \
-                  " Join ( panggil bot ) " + "\n" + \
-                  " Absen" + "\n" + \
-                  " Kabur ( usir bot ) " + "\n" + \
-                  " Kabur all ( kluar semua ) " + "\n" + \
-                  " Respon ( cek semua bot )" + "\n" + \
-                  " Sp" + "\n" + \
-                  " Kick @" + "\n" + \
-                  " Kickallmember" + "\n" + \
+                  "👿 Restart" + "\n" + \
+                  "👿 Join ( panggil bot ) " + "\n" + \
+                  "👿 Absen" + "\n" + \
+                  "👿 Kabur ( usir bot ) " + "\n" + \
+                  "👿 Kabur all ( kluar semua ) " + "\n" + \
+                  "👿 Respon ( cek semua bot )" + "\n" + \
+                  "👿 Sp" + "\n" + \
+                  "👿 Kick @" + "\n" + \
+                  "👿 Kickallmember" + "\n" + \
                   "   "
     return helpMedia
 
 def helpmedia1():
     helpMedia1 =   " [ Owner's ]" + "\n" + \
-                  "  " + "\n" + \
-                  " OwnerList" + "\n" + \
-                  " AdminList" + "\n" + \
-                  " BanContact" + "\n" + \
-                  " UnbanContact" + "\n" + \
-                  " BanList" + "\n" + \
-                  " Clearban" + "\n" + \
-                  " Adminadd @" + "\n" + \
-                  " Owneradd @" + "\n" + \
+                  "😈  " + "\n" + \
+                  "😈 OwnerList" + "\n" + \
+                  "😈 AdminList" + "\n" + \
+                  "😈 BanContact" + "\n" + \
+                  "😈 UnbanContact" + "\n" + \
+                  "😈 BanList" + "\n" + \
+                  "😈 Clearban" + "\n" + \
+                  "😈 Adminadd @" + "\n" + \
+                  "😈 Owneradd @" + "\n" + \
                   "  b"
     return helpMedia1
 
 def helpmedia2():
     helpMedia2 =   "  [ Groups ]" + "\n" + \
-                  " GroupCreator" + "\n" + \
-                  " GroupId" + "\n" + \
-                  " GroupName" + "\n" + \
-                  " GroupPicture" + "\n" + \
-                  " GroupList" + "\n" + \
-                  " GroupMemberList" + "\n" + \
-                  " GroupInfo" + "\n" + \
-                  " Gticket" + "\n" + \
-                  " Gticket on/off" + "\n" + \
-                  " Mimic on" + "\n" + \
-                  " Mimic off" + "\n" + \
-                  " MimicAdd" + "\n" + \
-                  " MimicDel" + "\n" + \
-                  " Lurking on/off" + "\n" + \
-                  " Lurking" + "\n" + \
-                  " Tag" + "\n" + \
+                  "👿 GroupCreator" + "\n" + \
+                  "👿 GroupId" + "\n" + \
+                  "👿 GroupName" + "\n" + \
+                  "👿 GroupPicture" + "\n" + \
+                  "👿 GroupList" + "\n" + \
+                  "👿 GroupMemberList" + "\n" + \
+                  "👿 GroupInfo" + "\n" + \
+                  "👿 Gticket" + "\n" + \
+                  "👿 Gticket on/off" + "\n" + \
+                  "👿 Mimic on" + "\n" + \
+                  "👿 Mimic off" + "\n" + \
+                  "👿 MimicAdd" + "\n" + \
+                  "👿 MimicDel" + "\n" + \
+                  "👿 Lurking on/off" + "\n" + \
+                  "👿 Lurking" + "\n" + \
+                  "👿 Tag" + "\n" + \
                   "   "
     return helpMedia2
     
 def helptexttospeech():
     helpTextToSpeech =   "[ Menu Set ]" + "\n" + \
-                  " Protect on/off" + "\n" + \
-                  " QrProtect on/off" + "\n" + \
-                  " InviteProtect on/off" + "\n" + \
-                  " CancelProtect on/off" + "\n" + \
-                  " AutoAdd on/off" + "\n" + \
-                  " AutoJoin on/off" + "\n" + \
-                  " AutoLeave on/off" + "\n" + \
-                  " CheckSticker on/off" + "\n" + \
-                  " AutoRead on/off" + "\n" + \
-                  " DetectMention on/off" + "\n" + \
-                  " Join link on/off" + "\n" + \
-                  " Pro on/off" + "\n" + \
+                  "😈 Protect on/off" + "\n" + \
+                  "😈 QrProtect on/off" + "\n" + \
+                  "😈 InviteProtect on/off" + "\n" + \
+                  "😈 CancelProtect on/off" + "\n" + \
+                  "😈 AutoAdd on/off" + "\n" + \
+                  "😈 AutoJoin on/off" + "\n" + \
+                  "😈 AutoLeave on/off" + "\n" + \
+                  "😈 CheckSticker on/off" + "\n" + \
+                  "😈 AutoRead on/off" + "\n" + \
+                  "😈 DetectMention on/off" + "\n" + \
+                  "😈 Join link on/off" + "\n" + \
+                  "😈 Pro on/off" + "\n" + \
                   "  "
     return helpTextToSpeech
     
 def helptranslate():
     helpTranslate =    " [ Help Self ]" + "\n" + \
                   "  " + "\n" + \
-                  " Me" + "\n" + \
-                  " MyMid" + "\n" + \
-                  " Midnya @" + "\n" + \
-                  " MyName" + "\n" + \
-                  " MyBio" + "\n" + \
-                  " MyPicture" + "\n" + \
-                  " MyVideoProfile" + "\n" + \
-                  " MyCover" + "\n" + \
-                  " StealContact @" + "\n" + \
-                  " StealMid @" + "\n" + \
-                  " StealName「Mention」" + "\n" + \
-                  " StealBio @" + "\n" + \
-                  " StealPicture @" + "\n" + \
-                  " StealVideoProfile @" + "\n" + \
-                  " StealCover @" + "\n" + \
-                  " CloneProfile @" + "\n" + \
-                  " RestoreProfile" + "\n" + \
+                  "👿 Me" + "\n" + \
+                  "👿 MyMid" + "\n" + \
+                  "👿 Midnya @" + "\n" + \
+                  "👿 MyName" + "\n" + \
+                  "👿 MyBio" + "\n" + \
+                  "👿 MyPicture" + "\n" + \
+                  "👿 MyVideoProfile" + "\n" + \
+                  "👿 MyCover" + "\n" + \
+                  "👿 StealContact @" + "\n" + \
+                  "👿 StealMid @" + "\n" + \
+                  "👿 StealName「Mention」" + "\n" + \
+                  "👿 StealBio @" + "\n" + \
+                  "👿 StealPicture @" + "\n" + \
+                  "👿 StealVideoProfile @" + "\n" + \
+                  "👿 StealCover @" + "\n" + \
+                  "👿 CloneProfile @" + "\n" + \
+                  "👿 RestoreProfile" + "\n" + \
                   "   "
     return helpTranslate
 #==============================================================================#
@@ -311,7 +311,7 @@ def lineBot(op):
                        
 #-------------------------------------------------------------------------------
         if op.type == 25:
-            print ("[ 25 ] UNK87 BOT TIGA")
+            print ("[ 25 ] MAX BOT TIGA")
             msg = op.message
             text = msg.text
             msg_id = msg.id
