@@ -13,7 +13,7 @@ $ apt update
 $ apt upgrade
 $ apt install python
 $ apt install git
-$ git clone https://github.com/PHIEZUKE/TEST
+$ git clone https://github.com/0954517662/TEST
 $ cd TEST
 $ python -m pip install -r requirements.txt
 $ python [U1-U2-U3-U4-U5-U6].py
@@ -22,7 +22,7 @@ $ python [U1-U2-U3-U4-U5-U6].py
 ## Installation for VPS
 
 ```sh
-$ git clone https://github.com/PHIEZUKE/TEST
+$ git clone https://github.com/0954517662/TEST
 $ cd TESR
 $ python3 -m pip install -r requirements.txt
 $ python3 [U1-U2-U3-U4-U5-U6].py
